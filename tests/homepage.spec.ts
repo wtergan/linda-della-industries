@@ -64,3 +64,23 @@ test('contact-form-should-send-structured-data-and-confirm-receipt', async ({ pa
   expect(postedBody).toContain('Baltimore Test Owner');
   expect(postedBody).toContain('Every inquiry');
 });
+
+test('contact-form-should-not-report-success-when-provider-rejects-the-request', async ({ page }) => {
+  await page.route('https://formsubmit.co/ajax/**', async (route) => {
+    await route.fulfill({
+      status: 200,
+      contentType: 'application/json',
+      body: JSON.stringify({ success: 'false', message: 'Form requires activation' }),
+    });
+  });
+
+  await page.goto('/');
+  await page.locator('input[name="name"]').fill('Baltimore Test Owner');
+  await page.locator('input[name="email"]').fill('owner@example.com');
+  await page.locator('textarea[name="workflow"]').fill('Every inquiry is copied into a spreadsheet and answered by hand.');
+  await page.locator('input[name="consent"]').check();
+  await page.getByRole('button', { name: /send the workflow/i }).click();
+
+  await expect(page.getByRole('status')).toContainText('The form could not send');
+  await expect(page.getByRole('status').getByRole('link', { name: 'willdoraniv@gmail.com' })).toBeVisible();
+});
