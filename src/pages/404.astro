@@ -1,0 +1,9 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+const base = import.meta.env.BASE_URL;
+---
+<BaseLayout title="Not found | Linda Della Industries" description="The requested page was not found." noindex>
+  <main id="main-content" class="not-found">
+    <div><p class="section-index">Signal lost / 404</p><h1>This route ends here.</h1><p>The working system is still at the main terminal.</p><a class="button button-primary" href={base}>Return home</a></div>
+  </main>
+</BaseLayout>

@@ -1,0 +1,13 @@
+---
+interface Props { compact?: boolean; }
+const { compact = false } = Astro.props;
+---
+
+<span class:list={["brand-mark", { compact }]} aria-hidden="true">
+  <svg viewBox="0 0 64 64" role="img">
+    <path d="M8 54h48M14 48h36M19 42h26M24 36h16" />
+    <path d="M32 10v26M23 19h18M27 14h10" />
+    <path d="M17 29c4-10 11-15 15-15s11 5 15 15" />
+    <circle cx="32" cy="10" r="3" />
+  </svg>
+</span>

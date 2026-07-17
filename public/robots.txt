@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://wtergan.github.io/linda-della-industries/sitemap-index.xml

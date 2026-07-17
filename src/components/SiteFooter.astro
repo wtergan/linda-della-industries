@@ -1,0 +1,25 @@
+---
+import BrandMark from './BrandMark.astro';
+const base = import.meta.env.BASE_URL;
+---
+
+<footer class="site-footer">
+  <div class="shell footer-grid">
+    <div class="footer-brand">
+      <BrandMark />
+      <div>
+        <strong>Linda Della Industries</strong>
+        <p>Practical AI systems, built in Baltimore.</p>
+      </div>
+    </div>
+    <div class="footer-meta">
+      <p>Independent studio operated by William Doran IV.</p>
+      <p><a href="mailto:willdoraniv@gmail.com">willdoraniv@gmail.com</a></p>
+      <p class="legal-links"><a href={`${base}privacy/`}>Privacy</a><a href={`${base}terms/`}>Terms</a></p>
+    </div>
+  </div>
+  <div class="shell footer-rule">
+    <span>Established in Baltimore • 2026</span>
+    <span>Useful this week. Built for the long arc.</span>
+  </div>
+</footer>

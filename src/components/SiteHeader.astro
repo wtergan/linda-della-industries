@@ -1,0 +1,19 @@
+---
+import BrandMark from './BrandMark.astro';
+const base = import.meta.env.BASE_URL;
+---
+
+<header class="site-header" data-header>
+  <div class="shell header-inner">
+    <a class="wordmark" href={base} aria-label="Linda Della Industries home">
+      <BrandMark compact />
+      <span><strong>Linda Della</strong><small>Industries</small></span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href={`${base}#sprint`}>The sprint</a>
+      <a href={`${base}#fit`}>Good fit</a>
+      <a href={`${base}#founder`}>Founder</a>
+      <a class="nav-cta" href={`${base}#contact`}>Start a conversation</a>
+    </nav>
+  </div>
+</header>
