@@ -3,7 +3,7 @@ import AxeBuilder from '@axe-core/playwright';
 
 test('homepage-should-present-one-priced-founding-offer', async ({ page }) => {
   await page.goto('/');
-  await expect(page.getByRole('heading', { level: 1 })).toContainText('Put one expensive workflow');
+  await expect(page.getByRole('heading', { level: 1 })).toContainText('Turn one recurring workflow');
   await expect(page.getByText('$1,000 flat')).toBeVisible();
   await expect(page.getByRole('heading', { name: 'The 7-Day AI Workflow Sprint' })).toBeVisible();
   await expect(page.getByRole('link', { name: 'Request a founding sprint' })).toHaveAttribute('href', '#contact');
@@ -52,14 +52,15 @@ test('contact-form-should-send-structured-data-and-confirm-receipt', async ({ pa
   });
 
   await page.goto('/');
+  await expect(page.locator('[data-contact-form]')).toHaveAttribute('action', 'https://formsubmit.co/willdoraniv@gmail.com');
+  await expect(page.locator('[data-contact-form]')).toHaveAttribute('data-ajax-action', 'https://formsubmit.co/ajax/willdoraniv@gmail.com');
   await page.locator('input[name="name"]').fill('Baltimore Test Owner');
   await page.locator('input[name="email"]').fill('owner@example.com');
-  await page.locator('input[name="company"]').fill('Test Company');
   await page.locator('textarea[name="workflow"]').fill('Every inquiry is copied into a spreadsheet and answered by hand.');
   await page.locator('input[name="consent"]').check();
   await page.getByRole('button', { name: /send the workflow/i }).click();
 
-  await expect(page.getByRole('status')).toContainText('Received');
+  await expect(page.getByRole('status')).toContainText('Submitted');
   expect(postedBody).toContain('Baltimore Test Owner');
   expect(postedBody).toContain('Every inquiry');
 });

@@ -10,5 +10,18 @@ export default defineConfig({
   base: isGitHubPages ? `/${repository}` : '/',
   output: 'static',
   trailingSlash: 'always',
+  security: {
+    csp: {
+      directives: [
+        "default-src 'self'",
+        "font-src 'self'",
+        "img-src 'self' data:",
+        "connect-src 'self' https://formsubmit.co",
+        'form-action https://formsubmit.co',
+        "base-uri 'self'",
+        "object-src 'none'",
+      ],
+    },
+  },
   integrations: [sitemap()],
 });
