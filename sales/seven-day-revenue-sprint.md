@@ -2,7 +2,7 @@
 
 **Window:** Friday, July 17 through Thursday, July 23, 2026  
 **Primary goal:** one signed $1,000 Workflow Sprint.  
-**Cash target:** one $500 kickoff deposit at minimum; collect the full $1,000 only when the client prefers prepayment.  
+**Cash target:** ask for $1,000 upfront; if trust or procurement requires it, accept $500 at kickoff and $500 before handoff.
 **Activity target:** 50 targeted touches → 5 workflow conversations → 2 proposals → 1 close.
 
 The website supports the sale. It does not create the sale by itself.
@@ -17,11 +17,11 @@ Map one repeated process, build one human-reviewed workflow in tools the client 
 
 | Date | Work | Exit condition |
 |---|---|---|
-| Fri Jul 17 | Launch the site. Build a list of 20 owner-led Baltimore/DMV prospects and 10 warm connectors. Send 5 warm asks and 5 personalized direct messages. | 10 messages sent; 2 conversations requested. |
+| Fri Jul 17 | Build the first list from Maryland Black Chamber, Maryland Hispanic Chamber, Buy Local Baltimore/Main Street, and independently verified company sites. Send 5 warm asks and 5 personalized direct messages. Request free Baltimore SBDC pricing/proposal feedback without waiting to sell. | 10 messages sent; 2 conversations requested. |
 | Sat Jul 18 | Record one 60–90 second sample-workflow video using dummy data. Send 10 more targeted messages. Create one Upwork project/profile offer if the account is available. | Demo link ready; 20 total direct touches. |
 | Sun Jul 19 | Attend or verify the advertised Mind Your Business event at The Black Mall, or visit two owner-led businesses at a quiet hour. Ask workflow questions; do not hard-pitch. Send 5 follow-ups. | 3 real conversations; 25 total touches. |
 | Mon Jul 20 | Send 10 highly targeted emails/DMs. Ask warm contacts for three named introductions. Hold available discovery calls. | 35 touches; at least 1 scoped opportunity. |
-| Tue Jul 21 | Send 5 partner messages to web designers, MSPs, bookkeepers, and consultants. Send the first concise proposal within two hours of any qualified call. | 40 touches; 1 proposal sent. |
+| Tue Jul 21 | Send 5 partner messages to web designers, MSPs, bookkeepers, and consultants. Send the first concise proposal within two hours of any qualified call. If useful, attend either the free Hereford Zone Business Association event or the free SBA session at Enoch Pratt—not both. | 40 touches; 1 proposal sent. |
 | Wed Jul 22 | Follow up every non-response once. Attend/verify the advertised Impact Hub “Build the Bridge” event if useful. Ask directly for a paid kickoff. | 50 total touches; 2 proposals or 1 verbal yes. |
 | Thu Jul 23 | Attend the Maryland Black Chamber’s advertised “Foundations for the AI-Enabled CEO.” Follow up with relevant participants without spamming. Close or schedule a definite next step. | 1 signed engagement and deposit, or a written postmortem with pipeline dates. |
 
@@ -63,6 +63,6 @@ A prospect is qualified only if:
 ## Definition of success
 
 Best case: $1,000 paid and kickoff scheduled.  
-Acceptable commercial success: $500 deposit on a signed $1,000 engagement.  
+Fallback commercial success: $500 deposit on a signed $1,000 engagement with the balance due before handoff.
 Evidence of momentum: five real conversations, two proposals, and dated follow-ups.  
 Failure mode to avoid: a polished brand with zero asks made.

@@ -24,11 +24,17 @@ The [NFIB 2025 Small Business and Technology survey](https://www.nfib.com/wp-con
 
 This supports a human-in-the-loop productivity offer. It does **not** support broad promises of revenue growth, headcount replacement, or guaranteed ROI.
 
-### 2. The measured “core production” adoption rate is lower still
+### 2. Current Census data shows an implementation gap
 
-The U.S. Census Bureau’s [Annual Business Survey analysis](https://www.census.gov/library/stories/2025/12/technology-use-and-business-conditions.html) reported that 8.8% of businesses used AI to produce goods or services in 2023, while 14.5% planned to use it. This is a narrower measure than casual use of tools such as ChatGPT. The difference reinforces the implementation gap: experimentation is more common than embedded workflow use.
+As of May 3, 2026, the U.S. Census Bureau reported that [19.8% of employer businesses used AI in at least one business function](https://www.census.gov/library/stories/2026/05/ai-use-businesses.html). A disclosure-reviewed [2026 Census working paper](https://www2.census.gov/library/working-papers/2026/adrm/ces/CES-WP-26-25.pdf) found that 64% of AI-using firms reported no institutional adjustment; only about 15% trained current staff and about 15% developed new workflows.
 
-### 3. Baltimore/DMV demand is visible in current programming
+This does not prove willingness to hire a consultant. It does support targeting firms already experimenting with AI but lacking repeatable workflows, training, and guardrails—not trying to persuade broad nonusers that AI applies to them.
+
+### 3. Tool budgets are modest
+
+The [JPMorganChase Institute](https://www.jpmorganchase.com/institute/all-topics/business-growth-and-entrepreneurship/understanding-ai-use-by-small-businesses) observed median explicit AI-service spending of roughly $28 per month among small-business payers in 2025. This excludes free tools, embedded AI, internal development, consulting, and training, so it is not evidence of a consulting budget. It does argue against forcing an expensive new software stack into the first engagement.
+
+### 4. Baltimore/DMV demand is visible in current programming
 
 - The [Maryland Black Chamber of Commerce calendar](https://marylandbcc.org/calendar/) lists “Foundations for the AI-Enabled CEO” on July 23 and July 30, 2026, plus a July 30 networking mixer.
 - Baltimore City’s 2026 Small Business Advancement Conference included a “Leveraging AI for Business” workshop.
@@ -66,6 +72,8 @@ Start with owner-led organizations in Baltimore and the DMV that:
 ## Launch offer
 
 ### The 7-Day AI Workflow Sprint — $1,000 founding-client rate
+
+An external research lane recommended a safer **$500 done-with-you client-follow-up package** and selling two slots. That is a useful fallback offer, but it doubles the number of closes and deliveries required for the seven-day revenue target. The launch decision remains one $1,000 implementation pilot. Do not pre-emptively discount it. If price is the repeated objection after at least ten qualified conversations, test the $500 package as a separately scoped prompt/template/training service with no API integration or autonomous sending.
 
 **Included**
 
@@ -108,6 +116,9 @@ Grounded evidence in the Vault/resume supports:
 - Production and inspection workflow automation at Ryder/Northrop and Pompeian.
 - Python, TypeScript, APIs, data pipelines, agent orchestration, RAG, ML experiments, and automation.
 - Long-standing neural-network study predating generative AI’s mainstream adoption.
+- A provenance-aware web/bookmark ingestion and maintenance system with explicit promotion and health checks.
+- Authenticated browser automation and cross-platform integration across Windows, WSL, local applications, and messaging surfaces.
+- Human-in-the-loop agent and document workflows that keep consequential submission or customer-facing steps under review.
 
 Use these as evidence of implementation depth. Do not imply that Linda Della already has consulting clients or case-study outcomes.
 

@@ -9,9 +9,10 @@
 - Verified Astro diagnostics, static builds, desktop/mobile Playwright behavior, keyboard navigation, serious/critical axe checks, and dependency audit.
 - Deployed the public site and verified the homepage, legal pages, assets, sitemap, browser console, and production workflow.
 - Applied post-launch claim, privacy, form, CSP, and GitHub Actions hardening from specialist reviews.
+- Submitted one synthetic live inquiry. FormSubmit returned an activation-required response and sent its one-time activation email; no delivery claim is valid until William clicks that link and retests.
 
 ## Remaining
-- Confirm the one-time FormSubmit activation email and perform one real inbox-delivery test.
+- Click the FormSubmit activation email and perform one real inbox-delivery test.
 - Execute the prospecting plan; the website alone is not the revenue engine.
 - Register the service name/business structure before presenting Linda Della Industries as an LLC, corporation, or registered trade name.
 - Replace the personal Gmail address with a domain mailbox after purchasing a credible custom domain.
